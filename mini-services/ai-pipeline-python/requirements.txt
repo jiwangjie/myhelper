@@ -1,0 +1,19 @@
+# AI Pipeline Python Backend dependencies
+# Pinned versions verified working in sandbox
+fastapi==0.128.0
+uvicorn==0.44.0
+python-socketio==5.16.3
+httpx==0.28.1
+pydantic==2.12.5
+huggingface_hub==1.9.2
+edge-tts==7.2.8
+numpy==2.1.3
+scipy==1.14.1
+soundfile==0.13.1
+librosa==0.10.2.post1
+aiofiles==24.1.0
+# Optional local-model runtimes (installed but heavy)
+# torch==2.12.0+cpu  (install separately: --index-url https://download.pytorch.org/whl/cpu)
+# transformers==5.12.1
+# diffusers==0.38.0
+# llama-cpp-python (for GGUF quantized models)
